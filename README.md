@@ -153,7 +153,7 @@ Footnotes
 
 [0] https://dl.acm.org/citation.cfm?id=2996957 / https://arxiv.org/pdf/1609.06327.pdf
 
-[1] Contact: lukas.barth@kit.edu or benjamin.niedermann@kit.edu
+[1] Contact: lukas.barth@kit.edu or niedermann@igg.uni-bonn.de  
 
 [2] https://github.com/tinloaf/libosmium
 
