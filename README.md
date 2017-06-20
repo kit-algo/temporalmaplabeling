@@ -125,11 +125,11 @@ In this example
 Preprocessing script
 ====================
 
-To convert a OSM xml file into the road graph file, execute the "OSMtoRoadGraph" like this:
+To convert a OSM xml file into the road graph file, execute the run.py script from [3] like this:
 
-python -n c -f <OSM XML file>
+    python run.py -n c -f <OSM XML file>
 
-This will create a .pycgr file in the same directory as the XML file which can be used.
+This will create a .pycgr file in the same directory as the XML file which can be used. For more details, see the readme file at [3].
 
 
 Results
