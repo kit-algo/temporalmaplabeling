@@ -151,7 +151,10 @@ Most timing columns that do not carry the name of a heuristic / the ILP contain 
 Footnotes
 =========
 
-[0] TODO Link
+[0] https://dl.acm.org/citation.cfm?id=2996957 / https://arxiv.org/pdf/1609.06327.pdf
+
 [1] Contact: lukas.barth@kit.edu or benjamin.niedermann@kit.edu
+
 [2] https://github.com/tinloaf/libosmium
+
 [3] https://github.com/AndGem/OsmToRoadGraph
