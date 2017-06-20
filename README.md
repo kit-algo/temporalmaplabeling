@@ -8,7 +8,7 @@ Martin Nöllenburg and Darren Strash.[1]
 All software used for the experiments in that paper is included in this
 bundle. You may use, modify and redistribute it in accordance with the license stated in LICENSE.TXT.
 
-The software is meant to be fed with OpenStreetMap data (and data derived therefrom, see TODO "Workflow" below) and can either be used in GUI mode in which you will be able to see the results of the various models and algorithms, or in CLI mode which can be used to run experiments and retrieve quality measures of the various algorithms and their solutions.
+The software is meant to be fed with OpenStreetMap data (and data derived therefrom, see "Workflow" below) and can either be used in GUI mode in which you will be able to see the results of the various models and algorithms, or in CLI mode which can be used to run experiments and retrieve quality measures of the various algorithms and their solutions.
 
 Contents
 ========
