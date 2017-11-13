@@ -47,9 +47,8 @@ This project is configured for builds in a separate build directory. Let '/path/
 
 If you have all required libraries etc. installed, it should build the TML framework. The binary will be called "tmlframework".
 
-If linking fails complaining that it could not find gurobi, make sure that:
-  * Your `GUROBI_HOME` environment variable is set correctly
-  * If you are not using Gurobi 7.5, you have to adapt the library that is linked in line 114 of tmlframework.pro
+If linking fails complaining that it could not find gurobi, see below.
+
 
 Troubleshooting
 ===============
@@ -59,8 +58,8 @@ Problems with Gurobi during build
 
 If Gurobi can't be found (during linking or translation), make sure that
 
-* You have set the environment variable GUROBI_HOME correctly
-* If you use a version other than 6.5x, you must adapt the library that is being linked against in tmlframework.pro: Look for the line containing "-lgurobi65".p
+* Your `GUROBI_HOME` environment variable is set correctly
+* If you are not using Gurobi 7.5, you have to adapt the library that is linked in line 114 of tmlframework.pro. Look for the line containing "-lgurobi75" and adapt that to your installed version.
 
 Workflow
 ========
