@@ -25,9 +25,17 @@ Requirements
 The software has a number of requirements. Aside from things that are probably available on most Linux machines, these are:
 
 * Qt (including development headers and tools)
-* libosmium (at the time of writing, the official libosmium had a bug causing OSM files to be read incorrectly on machines with non-american locales. You can find a fixed (although old) version in the "fixatof" branch of [2].)
+* CGAL (including development headers)
 * Gurobi (this project is configured for Gurobi 6.5, but it should be straightforward to adapt it to later versions)
 * If you want to use your own OpenStreetMap files for input, you need to convert them with the script from Andreas Gemsa [3]
+
+Additionally, libosmium is added as a submodule in contrib/osmium. You need to run
+
+    git submodule init
+    git submodule update
+    
+to fetch it.
+
 
 Building
 ========
