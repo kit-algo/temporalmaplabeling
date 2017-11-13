@@ -109,10 +109,9 @@ INCLUDEPATH += "contrib/osmium/include" "/home/benjamin/programs/gurobi605/linux
   QMAKE_CXXFLAGS += -DOLD_BOOST
 }
 
-QMAKE_CXXFLAGS -= -O2
-QMAKE_CXXFLAGS += -std=c++11 -fext-numeric-literals -g -O0
+QMAKE_CXXFLAGS += -std=c++11 -fext-numeric-literals
 
-LIBS += -lexpat -lCGAL -lgmp -lmpfr -lboost_thread -lboost_system -lboost_program_options -L$$(GUROBI_HOME)/lib  -L/home/benjamin/programs/gurobi605/linux64/lib  -lgurobi_c++ -lgurobi65
+LIBS += -lexpat -lCGAL -lgmp -lmpfr -lboost_thread -lboost_system -lboost_program_options -L$$(GUROBI_HOME)/lib -lgurobi_c++ -lgurobi75
 
 
 #QMAKE_CFLAGS += -pg

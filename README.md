@@ -26,14 +26,14 @@ The software has a number of requirements. Aside from things that are probably a
 
 * Qt (including development headers and tools)
 * CGAL (including development headers)
-* Gurobi (this project is configured for Gurobi 6.5, but it should be straightforward to adapt it to later versions)
+* Gurobi (this project is configured for Gurobi 7.5, but it should be straightforward to adapt it to versions startin from 6.5)
 * If you want to use your own OpenStreetMap files for input, you need to convert them with the script from Andreas Gemsa [3]
 
 Additionally, libosmium is added as a submodule in contrib/osmium. You need to run
 
     git submodule init
     git submodule update
-    
+
 to fetch it.
 
 
@@ -46,6 +46,10 @@ This project is configured for builds in a separate build directory. Let '/path/
     make
 
 If you have all required libraries etc. installed, it should build the TML framework. The binary will be called "tmlframework".
+
+If linking fails complaining that it could not find gurobi, make sure that:
+  * Your `GUROBI_HOME` environment variable is set correctly
+  * If you are not using Gurobi 7.5, you have to adapt the library that is linked in line 114 of tmlframework.pro
 
 Troubleshooting
 ===============
